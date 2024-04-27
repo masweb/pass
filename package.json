@@ -1,0 +1,27 @@
+{
+  "name": "pass",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tabler/icons": "^3.2.0",
+    "@tauri-apps/api": "^1.5.4",
+    "bulma": "^1.0.0",
+    "vue": "^3.4.25",
+    "vue-tabler-icons": "^2.21.0",
+    "vue3-loading-skeleton": "^0.0.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.10",
+    "vue-tsc": "^2.0.14",
+    "@tauri-apps/cli": "^1.5.12"
+  }
+}
