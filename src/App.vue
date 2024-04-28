@@ -313,9 +313,3 @@ const openNewModal = () => {
     </table>
   </div>
 </template>
-
-<style lang="scss">
-:root {
-  --bulma-primary: red;
-}
-</style>
