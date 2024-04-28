@@ -1,4 +1,4 @@
-<script setup lang="ts">
+@<script setup lang="ts">
 import { writeText  } from '@tauri-apps/api/clipboard'
 import { readTextFile, writeTextFile, BaseDirectory } from '@tauri-apps/api/fs'
 import { ref, onMounted, onBeforeUnmount, computed, nextTick } from 'vue'
